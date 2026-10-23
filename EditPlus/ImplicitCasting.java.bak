@@ -1,0 +1,16 @@
+class ImplicitCasting 
+{
+	public static void main(String[] args) 
+	{
+		long my_age =383804897878l;
+		int age = (int)my_age;
+		//short sh_age = (short) my_age;
+		//float fl_age = my_age;
+		//byte by_age= (byte) my_age;
+		System.out.println("my_age = "+age); 
+		//System.out.println("long age = "+age);
+		//System.out.println("sh_age = "+sh_age);
+		//System.out.println("by_age = "+by_age);
+		//System.out.println("fl_age = "+fl_age);
+	}
+}

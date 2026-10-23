@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class UserInp 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Your Name : ");
+		String name = sc.nextLine();
+		System.out.println("Enter Your Age : ");
+		int age = sc.nextInt();
+		System.out.println("Enter Your Roll No. ");
+		int roll_no = sc.nextInt();
+		
+
+		System.out.println("Hello Everyone My Name Is "+ name + ", I Am "+ age + "Years Old. And My Roll No. Is "+ roll_no );
+		System.out.println("This is the beauty of Java Language So dont warry makes mistake and grow your Experience in your field. Becouese Remebers ALways Everyone Start From zero You Also Doing Start From Zero. Always Say Yes I can do it No matter How much effort I will put. ");
+	}
+}

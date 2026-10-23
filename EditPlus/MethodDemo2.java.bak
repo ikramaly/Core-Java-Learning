@@ -1,0 +1,17 @@
+class MethodDemo2 
+{
+	public int sum(int a , int b )
+	{
+		return a+b;
+		
+	}
+	public static void main(String[] args) 
+	{
+		//MethodDemo2 m1 = new MethodDemo2();
+		int sum_value = m1.sum(10,20);
+		System.out.println("Sum Of the value : "+sum_value);
+	}
+	
+	
+	
+}

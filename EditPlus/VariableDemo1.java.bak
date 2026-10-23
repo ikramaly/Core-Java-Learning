@@ -1,0 +1,40 @@
+class VariableDemo1 
+{
+	//these are instance variables...
+	String name = "Ikram Ali";
+	int age = 32;
+	static String branch = "Btech CSE";
+	
+	public static void main(String[] args) 
+	{
+		//IF I WANT TO USE THESE VARIABLE IN STATIC AREA I NEED TO OBJECT.
+		VariableDemo1 s= new VariableDemo1();
+		System.out.println("Name "+s.name);
+		System.out.println("Age "+s.age);
+		//System.out.println("Branch "+VariableDemo1.branch);
+		s.name = "Anushka sharma";
+		System.out.println("Updated Name : "+s.name);
+		//s.branch = "CIVIL ENGG.";
+		System.out.println("Updated static variable name : "+s.branch);
+		System.out.println("Updated static variable name : "+s1.branch);
+		System.out.println("______________________________________________");
+		
+		VariableDemo1 s1= new VariableDemo1();
+		System.out.println("Name "+s1.name);
+		System.out.println("Age "+s1.age);
+		//System.out.println("Branch "+VariableDemo1.branch);
+		s1.branch = "Bsc CS";
+		System.out.println("Updated static variable name : "+s1.branch);
+		System.out.println("Updated static variable name : "+s.branch);
+		System.out.println("Updated static variable name : "+s1.branch);
+		s1.display();
+		s.display();
+	}
+	public void display()
+	{
+		String name ="Ikram ALi";
+		System.out.println("Name :"+name);
+	}
+	
+}
+ 

@@ -1,0 +1,64 @@
+import java.util.Scanner;
+class HomeWork1 
+{
+	public static void main(String[] args) 
+	{
+		
+		HomeWork1 M1= new HomeWork1();
+		M1.Total_Bill();
+		System.out.println("  ");
+		System.out.println("Please Give The Your Valuable Advice For Our Services...");
+		System.out.println("_______________________________________________________");
+		M1.Calculator();
+		   
+		
+	}
+	public void Total_Bill()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter The Price Of Paneer : ");
+		int Paneer = sc.nextInt();
+		System.out.println("Enter The Price Of 4 - Roti : ");
+		int Roti = sc.nextInt();
+		System.out.println("Enter The Price Of One Salid : ");
+		int One_Salid = sc.nextInt();
+		System.out.println("Enter The Price Of Dal Makhni: ");
+		int Dal_Makhni = sc.nextInt();
+		System.out.println("Enter The Price Of Cold : ");
+		int Cold = sc.nextInt();
+		
+		//return (Paneer + Roti + One_Salid + Dal_Makhni + Cold);
+		System.out.println("Mr Your Total Bill = "+(Paneer + Roti + One_Salid + Dal_Makhni + Cold));
+		
+	}
+	
+	//Calculator For Shopkeeper----------------------------------------------------------
+	
+	public void Calculator()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Your 1st num : ");
+		int a= sc.nextInt();
+		System.out.println("Enter Your 2nd num : ");
+		int b= sc.nextInt();
+		System.out.println("Addition  : "+(a+b));
+		
+		System.out.println("Enter Your 1st num : ");
+		int c= sc.nextInt();
+		System.out.println("Enter Your 2nd num : ");
+		int d= sc.nextInt();
+		System.out.println("Subtraction  : "+(c-d));
+		
+		System.out.println("Enter Your 1st num : ");
+		int e= sc.nextInt();
+		System.out.println("Enter Your 2nd num : ");
+		int f= sc.nextInt();
+		System.out.println("Multiplication  : "+(e*f));
+		
+		System.out.println("Enter Your 1st num : ");
+		int g= sc.nextInt();
+		System.out.println("Enter Your 2nd num : ");
+		int h= sc.nextInt();
+		System.out.println("Division  : "+(g/h));
+	}
+}

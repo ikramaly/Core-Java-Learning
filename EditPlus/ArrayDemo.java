@@ -1,0 +1,59 @@
+import java.util.Scanner;
+class  ArrayDemo
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter Your Array Number : ");
+		int size = sc.nextInt();
+		int numbers[] = new int[size];
+		System.out.println("Array Created Successfully. Enter Numbers for Array........");
+		for (int i=0; i<size ; i++ )
+		{
+			numbers[i] = sc.nextInt();
+			System.out.println(" Successfully Enterd In numbers[] ."+i);
+		}
+		System.out.println("Now Array Is Print In Sequence .....");
+		
+		for (int i=0 ; i<size ; i++ )
+		{
+			System.out.println(numbers[i]);
+			
+		}
+		
+		//int []marks = new int[5];
+		/*int marks[] = new int[5];
+		marks[0] = 12;
+		marks[1] = 23;
+		marks[2] = 33;
+		marks[3] = 12;
+		marks[4] = 23;
+		System.out.println("Array : "+marks[2]);
+		System.out.println("Array : "+marks[0]);
+		System.out.println("Array : "+marks[4]);
+		System.out.println("Array : "+marks[3]);
+		
+		for (int i=0; i<=4 ;i++ )
+		{
+			System.out.println("Array In Sequence Order : "+marks[i]);
+		}
+		*/
+		//ArrayDemo m1 = new ArrayDemo();
+		//m1.ArrayMethod();
+		
+		
+		
+	}
+	
+	/*public void ArrayMethod()
+	{
+		int marks[] = {10,23,45,4};
+		System.out.println("Array[0] :"+marks[0]);
+		System.out.println("Array[1] :"+marks[1]);
+		System.out.println("Array[2] :"+marks[2]);
+		System.out.println("Array[3] :"+marks[3]);
+	}
+	*/
+	
+	
+}

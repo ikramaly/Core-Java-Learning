@@ -1,0 +1,24 @@
+class VariableDemo 
+{
+	public static void main(String[] args) 
+	{
+		int salary = 10000;
+		String name="Ikram ali";
+		//int $name_ik = "ikram ali";
+		int $_mar_ks = 344;
+		//int #solo_ = 343;
+		String N_A_M_E_ = "Ikram Ali";
+		//String N_A_M_E = 'Ikram Ali';		
+		//char _name = "abcd";
+		char v_#89_ ='f';
+		char _ik ='i';
+		System.out.println("My Name is "+name);
+		System.out.println("My Salary = "+salary);
+		//System.out.println($name_ik);
+		System.out.println($_mar_ks);
+		//System.out.println(N_A_M_E);
+		System.out.println( N_A_M_E_);
+		//System.out.println("_name= "+_name);
+		System.out.println("v_#89_ = "+v_89_);
+	}
+}
